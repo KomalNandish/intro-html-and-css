@@ -1,0 +1,65 @@
+body
+{
+    background-color: beige;
+    margin: auto;
+    padding-left: 15px;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    border-radius:100% ;
+    border-style: double;
+    border-color: aqua;
+}
+#header
+{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align:center;
+}
+
+a
+{
+font-size: 10px;
+}
+ul
+{
+color: blueviolet;
+}
+ol
+{
+color:brown
+}
+
+
+h1,h3
+{
+text-align: center;
+padding-top: 20px;
+}
+.grid-container 
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+.grid-item
+{
+    background-color: rgb(255, 240, 240);
+    border: 1px solid rgb(19, 19, 165);
+    padding: 20px;
+    text-align: center;
+}
+p
+{
+color : purple;
+text-align:center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+  }
+  
